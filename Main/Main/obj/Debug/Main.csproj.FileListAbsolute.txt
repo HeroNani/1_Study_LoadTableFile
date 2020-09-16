@@ -1,0 +1,4 @@
+C:\Users\61414\Desktop\Learn\Study_LoadTableFile\Main\Main\obj\Debug\Main.csprojAssemblyReference.cache
+C:\Users\61414\Desktop\Learn\Study_LoadTableFile\Main\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+F:\zzb\test\1_Study_LoadTableFile\Main\Main\obj\Debug\Main.csprojAssemblyReference.cache
+F:\zzb\test\1_Study_LoadTableFile\Main\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
