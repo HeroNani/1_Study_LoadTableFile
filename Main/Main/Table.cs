@@ -10,6 +10,11 @@ namespace Zhouzhibo
     {
         protected List<string> m_fields;
 
+        public Table()
+        {
+            m_fields = new List<string>();
+        }
+
         public bool InitFromString(string data)
         {
             int firstEnter = data.IndexOf("\r\n");
@@ -29,6 +34,9 @@ namespace Zhouzhibo
 
                 m_fields.Add(v);
             }
+
+            //分离出各个条目
+            string[] rows = rawRows.Split(new string[1] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
         }
     }
 }

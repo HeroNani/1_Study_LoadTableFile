@@ -28,8 +28,8 @@ namespace Zhouzhibo
         //void NewTable();
         //bool IsLuaTable();
 
-        TableManagerCommon GetTableManager();
+        TableManager GetTableManager();
 
-        void SetTableManager(TableManagerCommon manager);
+        void SetTableManager(TableManager manager);
     }
 }

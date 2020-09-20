@@ -20,7 +20,8 @@ namespace Zhouzhibo
                 m_data.Clear();
 
             Table table = new Table();
-            if(!table.)
+            if (!table.InitFromString(text)
+                return;
         }
 
         public IEnumerable<int> GetKeys()
