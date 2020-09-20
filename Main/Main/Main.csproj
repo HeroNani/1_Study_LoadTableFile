@@ -46,7 +46,11 @@
     <Compile Include="FirstFloor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadTextFile.cs" />
     <Compile Include="SecondFloor.cs" />
+    <Compile Include="Table.cs" />
+    <Compile Include="TableInfo.cs" />
+    <Compile Include="TableManager.cs" />
     <Compile Include="TableManagerCommon.cs" />
     <Compile Include="ThirdFloor.cs" />
   </ItemGroup>
