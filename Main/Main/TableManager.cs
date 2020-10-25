@@ -61,7 +61,7 @@ namespace Zhouzhibo
 
             if (File.Exists(filePath))
             {
-                using(var fs = File.Open(filePath,FileMode.Open,FileAccess.Read,FileShare.Read))
+                using(FileStream fs = File.Open(filePath,FileMode.Open,FileAccess.Read,FileShare.Read))
                 {
                     using(var sr = new StreamReader(fs,Encoding.GetEncoding("GBK")))
                     {
